@@ -10,7 +10,7 @@ El objetivo principal de esta práctica es integrar conocimientos esenciales del
 
 -Creación de interfaces con XML.
 
-Uso de actividades y navegación entre pantallas.
+-Uso de actividades y navegación entre pantallas.
 
 -Implementación de un CRUD con SQLite y SQLiteOpenHelper.
 
@@ -68,10 +68,10 @@ Los errores iniciales, las referencias incorrectas y las pruebas constantes fuer
 
 ##  Instrucciones para ejecutarlo
 
-Clonar el repositorio.
+1. Clonar el repositorio.
 
-Abrir el proyecto en Android Studio.
+2. Abrir el proyecto en Android Studio.
 
-Sincronizar Gradle cuando lo pida.
+3. Sincronizar Gradle cuando lo pida.
 
-Ejecutar la aplicación en un emulador o dispositivo físico.
+4. Ejecutar la aplicación en un emulador o dispositivo físico.
