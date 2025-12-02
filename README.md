@@ -1,73 +1,77 @@
-Gestión de Clientes – Android (Kotlin + SQLite)
-Descripción del proyecto
+##Gestión de Clientes – Android (Kotlin + SQLite)
+#Descripción del proyecto
 
-Esta app es una pequeña aplicación Android desarrollada en Kotlin cuyo objetivo es gestionar una lista de clientes de forma local utilizando una base de datos SQLite.
-Permite añadir clientes, visualizarlos en un RecyclerView, buscar por nombre, y borrar registros.
-La idea de la actividad es practicar el manejo de actividades, layouts, adapters, navegación, CRUD básico y persistencia con SQLite.
+Aplicación Android desarrollada en Kotlin que permite gestionar una base de datos local de clientes utilizando SQLite.
+La app permite añadir, buscar, listar y eliminar clientes mediante una interfaz sencilla basada en Material Design.
 
-Objetivo de la actividad
+#Objetivo de la actividad
 
-El objetivo principal era desarrollar una aplicación funcional que conectara todos los elementos básicos de un proyecto Android real:
+El objetivo principal de esta práctica es integrar conocimientos esenciales del desarrollo Android:
 
-Creación de pantallas y diseño de interfaces.
+-Creación de interfaces con XML.
 
-Uso de RecyclerView y ViewHolder.
+U-so de actividades y navegación entre pantallas.
 
-Creación de base de datos SQLite con un helper propio.
+-Implementación de un CRUD con SQLite y SQLiteOpenHelper.
 
-Inserción y lectura de datos mediante consultas.
+-Representación de datos con RecyclerView y un Adapter personalizado.
 
-Flujo completo entre actividades.
+-Validación de datos de entrada.
 
-Aplicación de validaciones y buenas prácticas.
-
-La actividad busca que te acostumbres a mezclar UI, lógica y persistencia, igual que en un proyecto normal.
+-Aplicación de principios de diseño limpio en Android.
 
 Tecnologías utilizadas
 
-Kotlin
+-Kotlin
 
-Android Studio
+-Android Studio
 
-RecyclerView
+-SQLite
 
-SQLite
+-RecyclerView
 
-Material Design Components
+-Material Design Components
 
-Características principales
+#Funcionalidades implementadas
 
-Añadir clientes con validación de campos.
+-Añadir clientes con validación de nombre, correo y teléfono.
 
-Visualización en lista usando RecyclerView.
+-Listado completo mediante RecyclerView.
 
-Actualización automática de la lista.
+-Búsqueda de clientes por nombre en tiempo real.
 
-Búsqueda por coincidencia en tiempo real.
+-Eliminación individual de clientes.
 
-Eliminación de un cliente desde la propia tarjeta.
+-Interfaz limpia y ordenada.
 
-Interfaz sencilla basada en Material Design.
+#Estructura del proyecto
+app/
+ ├── java/com.example.segundaactividadprimertrimestre/
+ │     ├── MainActivity.kt
+ │     ├── AddClienteActivity.kt
+ │     ├── Cliente.kt
+ │     ├── ClienteAdapter.kt
+ │     └── ClienteDBHelper.kt
+ └── res/
+       ├── layout/activity_main.xml
+       ├── layout/activity_add_cliente.xml
+       ├── layout/item_cliente.xml
+       ├── values/colors.xml
+       └── values/strings.xml
 
-Estructura del proyecto
-/app
- ├── java/com.example.segundaactividadprimertrimestre
- │    ├── MainActivity.kt
- │    ├── AddClienteActivity.kt
- │    ├── Cliente.kt
- │    ├── ClienteAdapter.kt
- │    └── ClienteDBHelper.kt
- └── res
-      ├── layout/activity_main.xml
-      ├── layout/activity_add_cliente.xml
-      ├── layout/item_cliente.xml
-      ├── values/colors.xml
-      └── values/strings.xml
+#Experiencia al realizar la actividad
 
-Mi experiencia realizándolo
+Esta actividad ha sido una introducción completa al flujo de trabajo real de una aplicación Android.
+Conectar las pantallas con la base de datos, hacer que el RecyclerView funcionase correctamente, aplicar validaciones y probar la app en ejecución ha permitido entender mejor cómo se estructuran y se comportan las aplicaciones Kotlin en Android.
 
-La actividad al principio parecía más simple de lo que era. Entre layouts que daban fallo, IDs que no coincidían, errores raros de SQLite y el RecyclerView que nunca funciona a la primera, la sensación era básicamente “ok, esto no sale a la primera ni de broma”.
+Los errores iniciales, las referencias incorrectas y las pruebas constantes fueron parte natural del proceso, pero al final la aplicación quedó funcional y bien estructurada, lo cual demuestra el aprendizaje adquirido.
 
-Pero a medida que iba encajando las piezas —el adapter funcionando, la BD guardando datos, el diseño material quedando más ordenado— empezó a cobrar sentido. Terminas entendiendo cómo trabaja Android de verdad cuando mueves datos entre pantallas y la app deja de romperse.
+#Instrucciones para ejecutarlo
 
-En resumen: actividad bastante útil, con sus dolores de cabeza típicos de Android, pero que te obliga a unir todo lo que has aprendido y sentir que realmente puedes construir una app desde cero.
+Clonar el repositorio.
+
+Abrir el proyecto en Android Studio.
+
+Sincronizar Gradle cuando lo pida.
+
+Ejecutar la aplicación en un emulador o dispositivo físico.
