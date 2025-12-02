@@ -1,10 +1,10 @@
-## Gestión de Clientes – Android (Kotlin + SQLite)
-# Descripción del proyecto
+# Gestión de Clientes – Android (Kotlin + SQLite)
+##  Descripción del proyecto
 
 Aplicación Android desarrollada en Kotlin que permite gestionar una base de datos local de clientes utilizando SQLite.
 La app permite añadir, buscar, listar y eliminar clientes mediante una interfaz sencilla basada en Material Design.
 
-# Objetivo de la actividad
+##  Objetivo de la actividad
 
 El objetivo principal de esta práctica es integrar conocimientos esenciales del desarrollo Android:
 
@@ -32,7 +32,7 @@ Tecnologías utilizadas
 
 -Material Design Components
 
-# Funcionalidades implementadas
+##  Funcionalidades implementadas
 
 -Añadir clientes con validación de nombre, correo y teléfono.
 
@@ -44,7 +44,7 @@ Tecnologías utilizadas
 
 -Interfaz limpia y ordenada.
 
-# Estructura del proyecto
+##  Estructura del proyecto
 app/
  ├── java/com.example.segundaactividadprimertrimestre/
  │     ├── MainActivity.kt
@@ -59,14 +59,14 @@ app/
        ├── values/colors.xml
        └── values/strings.xml
 
-# Experiencia al realizar la actividad
+##  Experiencia al realizar la actividad
 
 Esta actividad ha sido una introducción completa al flujo de trabajo real de una aplicación Android.
 Conectar las pantallas con la base de datos, hacer que el RecyclerView funcionase correctamente, aplicar validaciones y probar la app en ejecución ha permitido entender mejor cómo se estructuran y se comportan las aplicaciones Kotlin en Android.
 
 Los errores iniciales, las referencias incorrectas y las pruebas constantes fueron parte natural del proceso, pero al final la aplicación quedó funcional y bien estructurada, lo cual demuestra el aprendizaje adquirido.
 
-# Instrucciones para ejecutarlo
+##  Instrucciones para ejecutarlo
 
 Clonar el repositorio.
 
